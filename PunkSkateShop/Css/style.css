@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 3vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.Pesquisar {
+    display: flex;
+}
+
+.User {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.BebasNeue {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+    font-size: 1.3vw; 
+    margin-right: 8vh;
+    
+}
+
+.Lupa {
+    width: 40px;
+    height: 40px;
+    background-color: #F0EFEF;
+    padding: 10px;
+    border: #000000;
+    border: 2px solid black; 
+    display: inline-block;
+}
+
+input::placeholder {
+    font-size: 18px;   /* tamanho do texto */
+    color: black;
+    opacity: 70%;       /* cor opcional */
+
+}
+
+.Procurador {
+    background-color: #DDDDDD;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    width: 578px;
+    height: 60px;
+}
+.badge {
+
+  top: 0;
+  right: 0;
+  background: black;
+  color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(25%, -25%);
+}
+
+.menu {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.alinhamento {
+    display: flex;
+    align-items: center;
+    font-size: 4vh;
+    
+}
+
+hr {
+    height: 17px;
+    background-color: #000000;
+}

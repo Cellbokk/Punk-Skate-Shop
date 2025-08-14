@@ -15,6 +15,12 @@ header {
     margin-right: 5vh;
 }
 
+h1 {
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 4vh;
+}
+
 .Pesquisar {
     display: flex;
 }
@@ -59,7 +65,7 @@ input::placeholder {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    width: 578px;
+    width: 700px;
     height: 60px;
 }
 .badge {
@@ -77,6 +83,8 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   transform: translate(25%, -25%);
+  margin-bottom: 50px;
+  
 }
 
 .menu {
@@ -96,10 +104,74 @@ input::placeholder {
     display: flex;
     align-items: center;
     font-size: 4vh;
-    
 }
 
-hr {
-    height: 17px;
+.linhaTop {
+    height: 10px;
     background-color: #000000;
+    border: none;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+  .background {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* preto com 40% de opacidade */
+}
+
+.trabalhamos {
+    display: flex;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.linhaFina {
+    height: 5px;
+    width: 50vh;
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+    margin-left: 8vh;
+    margin-right: 8vh;
+}
+
+.inverter {
+    transform: scaleX(-1);
+}
+
+.marcas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.espacamento {
+    margin-left: 7vh;
+    margin-righ: 7vh;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }

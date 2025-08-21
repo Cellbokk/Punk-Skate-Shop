@@ -142,6 +142,7 @@ input::placeholder {
     font-style: normal;
     justify-content: space-between;
     font-size: 25px;
+    margin-top: 30px;
 }
 
 .linhaFina {
@@ -171,7 +172,30 @@ input::placeholder {
 }
 
 h2 {
+    display: flex;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.arrowLeft {
+    margin: 30px;
+    background-color: #DDDDDD;
+    border: #000000;
+    padding-top: 18vh;
+    padding-bottom: 18vh;
+    border-radius: 10px;
+}
+
+.produtos {
+    display: flex;
+}
+
+.card-body {
+    justify-content: center;
+    
 }

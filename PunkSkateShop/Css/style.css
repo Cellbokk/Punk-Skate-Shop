@@ -21,6 +21,13 @@ h1 {
     font-size: 4vh;
 }
 
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
 p {
     margin-bottom: 0;
 }
@@ -217,7 +224,10 @@ h2 {
     border-radius: 10px;
 }
 .Logo{
-    
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
 }
 
 .whatsapp-fixo {
@@ -247,4 +257,17 @@ h2 {
   font-size: 14px;
   color: #000;
   font-family: Arial, sans-serif;
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    background-color: #000000;
+}
+
+h3 {
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    justify-content: space-between;
 }

@@ -21,8 +21,13 @@ h1 {
     font-size: 4vh;
 }
 
+p {
+    margin-bottom: 0;
+}
+
 .Pesquisar {
-    display: flex;
+    display: flex ;
+    
 }
 
 .User {
@@ -43,13 +48,14 @@ h1 {
 }
 
 .Lupa {
-    width: 40px;
-    height: 40px;
-    background-color: #F0EFEF;
-    padding: 10px;
-    border: #000000;
-    border: 2px solid black; 
-    display: inline-block;
+    display: flex;
+    width: 60px ;
+    height: 60px ;
+    background-color: #F0EFEF ;
+    padding: 10px ;
+    border: #000000 ;
+    border: 2px solid black ; 
+    display: inline-block ;
 }
 
 input::placeholder {
@@ -193,9 +199,52 @@ h2 {
 
 .produtos {
     display: flex;
+    justify-content: space-between;
 }
 
 .card-body {
     justify-content: center;
     
+}
+
+.arrowRight {
+    transform: scaleX(-1);
+    margin: 30px;
+    background-color: #DDDDDD;
+    border: #000000;
+    padding-top: 18vh;
+    padding-bottom: 18vh;
+    border-radius: 10px;
+}
+.Logo{
+    
+}
+
+.whatsapp-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  text-align: center;
+  text-decoration: none;
+}
+
+.whatsapp-fixo img {
+  background-color: #25D366;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-fixo img:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-fixo span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #000;
+  font-family: Arial, sans-serif;
 }
